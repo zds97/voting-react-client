@@ -8,7 +8,10 @@
     "test:watch": "npm run test -- --watch"
   },
   "babel": {
-    "presets": ["es2015", "react"]
+    "presets": [
+      "es2015",
+      "react"
+    ]
   },
   "repository": {
     "type": "git",
@@ -35,6 +38,7 @@
   },
   "dependencies": {
     "react": "^0.14.3",
+    "react-addons-pure-render-mixin": "^0.14.5",
     "react-dom": "^0.14.3"
   }
 }

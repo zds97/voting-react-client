@@ -1,5 +1,5 @@
 import React from 'react/addons';
-import Voting from '../../src/components/Voting.jsx';
+import {Voting} from '../../src/components/Voting.jsx';
 import {expect} from 'chai';
 
 const {renderIntoDocument, scryRenderedDOMComponentsWithTag,  Simulate}
